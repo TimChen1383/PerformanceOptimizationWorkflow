@@ -6,6 +6,9 @@ An efficient performance optimization workflow for Unreal Engine project.
 - Always tackling the biggest problem first, leading to maximum performance return for the time invested
 - Finding spikes in profiled result
 Common Tools
+- stat rhi
+- unitgraph
+- stat memory
 - stat unit
 1. Game Thread (GT): CPU bottleneck
 2. Draw Thread (DT): Rendering thread bottleneck
