@@ -2,10 +2,10 @@
 An efficient profiling workflow for Unreal Engine project.
 (image here)the profiling process should be a loop > after the problem get solved, we should go back to beginning
 
-- [Data Flow](#DataFlow)
-- [High Level Performance Screenshot](#HighLevelPerformanceScreenshot)
+- [DataFlow](#DataFlow)
+- [HighLevel Performance Screenshot](#HighLevelPerformanceScreenshot)
 
-## Data Flow
+## DataFlow
 ```diff
 - CPU and GPU are not working in parallel
 - Not all rendering-related issues are related to the GPU
@@ -25,7 +25,7 @@ An efficient profiling workflow for Unreal Engine project.
 ![DataFlow2](https://github.com/user-attachments/assets/d77450d2-2ba1-45cc-a8c1-061e243dc064)
 
 
-## High Level Performance Screenshot
+## HighLevelPerformanceScreenshot
 - Set up target fps first: 30 fps = 33.33 ms/frame, 60 fps = 16.66 ms/frame
 - Initial Bottleneck Identification: Is it CPU, GPU or Memory?
 - Always tackling the biggest problem first, leading to maximum performance return for the time invested
