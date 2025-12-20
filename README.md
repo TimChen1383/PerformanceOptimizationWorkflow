@@ -61,10 +61,8 @@ Unreal Insights
 ![CPUTask](https://github.com/user-attachments/assets/b43a0fa3-311e-42e1-bcae-709ddde0949d)
 - Find the key funciton (or a set of functions) that cause performance issue. Search from high level to low level
 ![Tasks](https://github.com/user-attachments/assets/79e5f489-f864-49f8-929b-edb6511ea1a9)
-
 - Diagnose funciton counts and time spent
 ![NamedEvent](https://github.com/user-attachments/assets/3181eb68-6a95-4921-9da9-9b92bb0765dc)
-
 - Enable Stat Named Events will be slightly heavier but provide more tracing details
 ![NamedEvent](https://github.com/user-attachments/assets/c6676d30-7a07-4dc6-92ac-496d2d9ab3e5)
 
