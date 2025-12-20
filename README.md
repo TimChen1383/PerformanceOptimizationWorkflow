@@ -1,9 +1,13 @@
+# Table of Contents
+[Profiling](#Profiling)
+- [DataFlow](#DataFlow)
+- [HighLevel Performance Screenshot](#HighLevelPerformanceScreenshot)
+
 # Profiling
 An efficient profiling workflow for Unreal Engine project.
 (image here)the profiling process should be a loop > after the problem get solved, we should go back to beginning
 
-- [DataFlow](#DataFlow)
-- [HighLevel Performance Screenshot](#HighLevelPerformanceScreenshot)
+
 
 ## DataFlow
 ```diff
