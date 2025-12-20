@@ -90,9 +90,11 @@ Simple Profiling Tools
 Unreal Insights
 - Filter GPU tracks only
 ![FilterGPU](https://github.com/user-attachments/assets/f7247730-4e64-4fa2-9d6c-f44b1bfe2a1d)
-
 - Find the key elements (or a set of elements) that cause performance issue
 ![GPUTasks](https://github.com/user-attachments/assets/b2219343-165f-46b8-8717-6049d503e078)
+- GPU bottleneck will block CPU's tasks
+![GPU_Bottleneck](https://github.com/user-attachments/assets/fce38833-ece3-4782-81c3-961464d0f4bf)
+
 
 
 
