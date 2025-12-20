@@ -17,7 +17,9 @@ An efficient profiling workflow for Unreal Engine project.
 - CPU and GPU are not working in parallel
 - Not all rendering-related issues are related to the GPU
 - Before the GPU actually renders, CPU also needs to deal with rendering tasks
-- Some GPU tasks will need to wait for CPU tasks finish. That's the reason we will see some waiting tasks in profiled result
+- Some GPU tasks will need to wait for CPU tasks finish
+- Some CPU tasks will need to wait for GPU tasks finish
+- That's the reason we will see some waiting tasks in profiled result
 ```
 - ***Game (Game Thread)***: Gameplay logic + decides what should be rendered > related to ***CPU*** bottleneck
 - ***Darw (Render Thread)***: Prepares rendering work(draw calls, material permutations, culling, sorting, batching, pass...), high-level rendering abstraction > related to ***CPU*** bottleneck
@@ -65,6 +67,8 @@ Unreal Insights
 ![NamedEvent](https://github.com/user-attachments/assets/3181eb68-6a95-4921-9da9-9b92bb0765dc)
 - Enable Stat Named Events will be slightly heavier but provide more tracing details
 ![NamedEvent](https://github.com/user-attachments/assets/c6676d30-7a07-4dc6-92ac-496d2d9ab3e5)
+- Read function in source code if needed
+![SOURCE](https://github.com/user-attachments/assets/5e74d4c3-6ed1-45a7-a68d-e73fd55773c5)
 
 
 ## ProfilingGPU
