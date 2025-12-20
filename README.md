@@ -2,6 +2,9 @@
 [Profiling](#Profiling)
 - [DataFlow](#DataFlow)
 - [HighLevel Performance Screenshot](#HighLevelPerformanceScreenshot)
+- [ProfilingCPU](#ProfilingCPU)
+- [ProfilingGPU](#ProfilingGPU)
+- [ProfilingMemory](#ProfilingMemory)
 
 # Profiling
 An efficient profiling workflow for Unreal Engine project.
@@ -46,7 +49,7 @@ Common Profiling Tools
 ![memory](https://github.com/user-attachments/assets/e0fe07d3-4f76-40b4-8bfa-48690d17a9ae)
 
 
-## Profiling CPU
+## ProfilingCPU
 Simple Profiling Tools
 - `stat game` : Gives feedback on how long the various Gameplay Ticks are taking
 - `stat physics` : Displays physics performance statistics
@@ -60,7 +63,7 @@ Unreal Insights
 ![Tasks](https://github.com/user-attachments/assets/79e5f489-f864-49f8-929b-edb6511ea1a9)
 
 
-## Profiling GPU
+## ProfilingGPU
 
 Simple Profiling Tools
 - `stat gpu` : Displays GPU statistics for the frame
@@ -86,7 +89,7 @@ Unreal Insights
 
 
 
-## Profiling Memory
+## ProfilingMemory
 Common Tools
 - memreport -full
 - stat memory
