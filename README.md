@@ -2,15 +2,17 @@
 An efficient profiling workflow for Unreal Engine project.
 (image here)the profiling process should be a loop > after the problem get solved, we should go back to beginning
 
-
 ## Data Flow
+```diff
 - CPU and GPU are not working in parallel
-- 並不是說渲染相關的問題就一定跟GPU有關，GPU實際渲染之前，CPU也需要負責提交渲染任務
-- Some GPU tasks will need to ***WAIT*** for CPU tasks finish. That's the reason we will see some waiting tasks in profiling result
-- ***Game (Game Thread)***: Gameplay logic + decides what should be rendered > related to CPU bottleneck
-- ***Darw (Render Thread)***: Prepares rendering work(draw calls, material permutations, culling, sorting, batching, pass...), high-level rendering abstraction > related to CPU bottleneck
-- ***RHIT (RHI Thread)***: translates render commands into actual GPU commands (DirectX, Vulkan, Metal...), manages GPU resources > related to CPU/GPU bottleneck (two side)
-- ***GPU***: Actual GPU render > related to GPU bottleneck
+- Not all rendering-related issues are related to the GPU
+- Before the GPU actually renders, CPU also needs to deal with rendering tasks
+- Some GPU tasks will need to wait for CPU tasks finish. That's the reason we will see some waiting tasks in profiled result
+```
+- ***Game (Game Thread)***: Gameplay logic + decides what should be rendered > related to ***CPU*** bottleneck
+- ***Darw (Render Thread)***: Prepares rendering work(draw calls, material permutations, culling, sorting, batching, pass...), high-level rendering abstraction > related to ***CPU*** bottleneck
+- ***RHIT (RHI Thread)***: translates render commands into actual GPU commands (DirectX, Vulkan, Metal...), manages GPU resources > related to ***CPU/GPU*** bottleneck (two side)
+- ***GPU***: Actual GPU render > related to ***GPU*** bottleneck
 - GPU is rendering frame N
 - RHI Thread is submitting frame N+1
 - Render Thread is building frame N+2
