@@ -63,6 +63,14 @@ Unreal Insights
 ![Tasks](https://github.com/user-attachments/assets/79e5f489-f864-49f8-929b-edb6511ea1a9)
 
 
+
+- Enable Stat Named Events will be slightly heavier but provide more tracing details
+![NamedEvent](https://github.com/user-attachments/assets/3181eb68-6a95-4921-9da9-9b92bb0765dc)
+
+- Enable Stat Named Events will be slightly heavier but provide more tracing details
+![NamedEvent](https://github.com/user-attachments/assets/c6676d30-7a07-4dc6-92ac-496d2d9ab3e5)
+
+
 ## ProfilingGPU
 
 Simple Profiling Tools
