@@ -5,6 +5,7 @@ An efficient profiling workflow for Unreal Engine project.
 
 ## Data Flow
 - CPU and GPU are not working in parallel
+- 並不是說渲染相關的問題就一定跟GPU有關，GPU實際渲染之前，CPU也需要負責提交渲染任務
 - Some GPU tasks will need to ***WAIT*** for CPU tasks finish. That's the reason we will see some waiting tasks in profiling result
 - ***Game (Game Thread)***: Gameplay logic + decides what should be rendered > related to CPU bottleneck
 - ***Darw (Render Thread)***: Prepares rendering work(draw calls, material permutations, culling, sorting, batching, pass...), high-level rendering abstraction > related to CPU bottleneck
@@ -51,7 +52,6 @@ Unreal Insights
 
 
 ## Profiling GPU
-- GPU usually need to wait for the CPU tasks
 
 Simple Profiling Tools
 - `stat gpu` : Displays GPU statistics for the frame
@@ -59,12 +59,20 @@ Simple Profiling Tools
 
 - `ProfileGPU` (GPU Visualizer)
 <img width="1001" height="602" alt="GPUVisualizer" src="https://github.com/user-attachments/assets/acea004d-b222-49f1-9282-83998efca23a" />
+
 - Optimization view mode
-- Windows PIX
-- RenderDoc
+![viewMode](https://github.com/user-attachments/assets/a5728307-efeb-4b0a-bed5-c9651e27d1be)
+
+
+- Windows PIX (WIP)
+- RenderDoc (WIP)
 
 Unreal Insights
-- ????
+- Filter GPU tracks only
+![FilterGPU](https://github.com/user-attachments/assets/f7247730-4e64-4fa2-9d6c-f44b1bfe2a1d)
+
+- Find the key elements (or a set of elements) that cause performance issue
+![GPUTasks](https://github.com/user-attachments/assets/b2219343-165f-46b8-8717-6049d503e078)
 
 
 
