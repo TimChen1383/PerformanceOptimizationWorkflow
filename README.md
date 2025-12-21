@@ -85,11 +85,11 @@ An efficient profiling workflow for Unreal Engine project.
 - Optimization view mode
 ![viewMode](https://github.com/user-attachments/assets/a5728307-efeb-4b0a-bed5-c9651e27d1be)
 
-
 - Windows PIX (WIP)
-- RenderDoc (WIP)
 
 ***Unreal Insights***
+- For tracking all frames in general and finding performance spikes
+- Not for diagnose deeply into a single frame(use Render Doc instead)
 - Filter GPU tracks only
 ![FilterGPU](https://github.com/user-attachments/assets/f7247730-4e64-4fa2-9d6c-f44b1bfe2a1d)
 - Find the key elements (or a set of elements) that cause performance issue
@@ -97,9 +97,18 @@ An efficient profiling workflow for Unreal Engine project.
 - GPU bottleneck will block other thread's tasks
 ![GPU_Bottleneck](https://github.com/user-attachments/assets/fce38833-ece3-4782-81c3-961464d0f4bf)
 
-
-
-
+***RenderDoc***
+- For detail diagnoise of a single frame (dive deep into Draw call, Overdraw, Shader Complexity, Render target...)
+- Not for finding performance spikes (use Unreal Insights instead)
+- Texture Viewer: Viewing all textures and render targets used during the capture
+![TextureViewer](https://github.com/user-attachments/assets/857194eb-082b-4bd1-967d-f1553f01560e)
+- Pipeline State: A complete snapshot of the GPU pipeline configuration for the currently selected draw call
+![PipelineState](https://github.com/user-attachments/assets/8d43f4c3-c500-414a-bd8f-0741b290bb8b)
+- Mesh Viewer: A tool for inspecting the geometry produced by a draw call
+![MeshViewer](https://github.com/user-attachments/assets/06efeff0-5903-4173-a5db-a2569b52507d)
+- Event Browser: A timeline/tree of all GPU commands recorded in the captured frame
+- We can search for the specific render pass in Event Browser to dive deep into it. Ex: BasePass
+- We can search for actor's display name in Event Browser to dive deep into it 
 
 ## ProfilingMemory
 ***Simple Profiling Tools***
