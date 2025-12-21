@@ -106,8 +106,12 @@ Common Tools
 - memreport -full
 - stat memory
 - stat streaming
-- Unreal Insights Memory profiler
-- 
+
+***Memory Insights***
+- Change the path inside "RunMemoryInsight.bat" file to match with your Unreal Engine location 
+- Execute "RunMemoryInsight.bat" file. This will run both Unreal Engine and Unreal Insight with memory profiling enabled
+![Memory](https://github.com/user-attachments/assets/d085443d-a7ed-4785-8871-246b37cdc2fb)
+
 
 # Resources
 - Unreal Art Optimization : https://unrealartoptimization.github.io/book/process/measuring-performance/
