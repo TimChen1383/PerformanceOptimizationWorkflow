@@ -21,10 +21,10 @@ An efficient profiling workflow for Unreal Engine project.
 - Some CPU tasks will need to wait for GPU tasks finish
 - That's the reason we will see some waiting tasks in profiled result
 ```
-- ***Game (Game Thread)***: Gameplay logic + decides what should be rendered > related to ***CPU*** bottleneck
-- ***Darw (Render Thread)***: Prepares rendering work(draw calls, material permutations, culling, sorting, batching, pass...), high-level rendering abstraction > related to ***CPU*** bottleneck
+- ***Game (Game Thread)***: Gameplay logic + decides what should be rendered > related to ***CPU*** bottleneck, game logic too heavy
+- ***Darw (Render Thread)***: Prepares rendering work(draw calls, material permutations, culling, sorting, batching, pass...), high-level rendering abstraction > related to ***CPU*** bottleneck, scene complexity
 - ***RHIT (RHI Thread)***: translates render commands into actual GPU commands (DirectX, Vulkan, Metal...), manages GPU resources > related to ***CPU/GPU*** bottleneck (two side)
-- ***GPU***: Actual GPU render > related to ***GPU*** bottleneck
+- ***GPU***: Actual GPU render > related to ***GPU*** bottleneck, rendering/shader overload
 - GPU is rendering frame N
 - RHI Thread is submitting frame N+1
 - Render Thread is building frame N+2
