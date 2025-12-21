@@ -107,6 +107,7 @@ An efficient profiling workflow for Unreal Engine project.
 - Mesh Viewer: A tool for inspecting the geometry produced by a draw call
 ![MeshViewer](https://github.com/user-attachments/assets/06efeff0-5903-4173-a5db-a2569b52507d)
 - Event Browser: A timeline/tree of all GPU commands recorded in the captured frame
+![EventBrowser](https://github.com/user-attachments/assets/d20d6602-54d7-4b56-b08c-63aa73a8bc40)
 - We can search for the specific render pass in Event Browser to dive deep into it. Ex: BasePass
 - We can search for actor's display name in Event Browser to dive deep into it 
 
