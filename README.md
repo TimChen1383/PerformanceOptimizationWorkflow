@@ -6,6 +6,8 @@
 - [ProfilingGPU](#ProfilingGPU)
 - [ProfilingMemory](#ProfilingMemory)
 
+[Resources](#Resources)
+
 # Profiling
 An efficient profiling workflow for Unreal Engine project.
 (image here)the profiling process should be a loop > after the problem get solved, we should go back to beginning
@@ -107,7 +109,7 @@ Common Tools
 - Unreal Insights Memory profiler
 - 
 
-## Resources
+# Resources
 - Unreal Art Optimization : https://unrealartoptimization.github.io/book/process/measuring-performance/
 
 
