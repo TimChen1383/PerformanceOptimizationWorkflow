@@ -85,7 +85,7 @@ An efficient profiling workflow for Unreal Engine project.
 - Optimization view mode
 ![viewMode](https://github.com/user-attachments/assets/a5728307-efeb-4b0a-bed5-c9651e27d1be)
 
-- Windows PIX (WIP)
+
 
 ***Unreal Insights***
 - For tracking all frames in general and finding performance spikes
@@ -110,6 +110,8 @@ An efficient profiling workflow for Unreal Engine project.
 ![EventBrowser](https://github.com/user-attachments/assets/d20d6602-54d7-4b56-b08c-63aa73a8bc40)
 - We can search for the specific render pass in Event Browser to dive deep into it. Ex: BasePass
 - We can search for actor's display name in Event Browser to dive deep into it 
+
+***Windows PIX (WIP)***
 
 ## ProfilingMemory
 ***Simple Profiling Tools***
