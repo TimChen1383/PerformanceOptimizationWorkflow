@@ -116,7 +116,8 @@ An efficient profiling workflow for Unreal Engine project.
 
 # Resources
 - Unreal Art Optimization : https://unrealartoptimization.github.io/book/process/measuring-performance/
-- How to run Unreal Insight: https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine
-- How to run memory insight: https://dev.epicgames.com/documentation/en-us/unreal-engine/memory-insights-in-unreal-engine
+- How to run Unreal Insight : https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine
+- How to run memory insight : https://dev.epicgames.com/documentation/en-us/unreal-engine/memory-insights-in-unreal-engine
+- How to enable RenderDoc in Unreal Engine : https://dev.epicgames.com/documentation/en-us/unreal-engine/using-renderdoc-with-unreal-engine
 - How to use RenderDoc : https://renderdoc.org/docs/index.html
 
