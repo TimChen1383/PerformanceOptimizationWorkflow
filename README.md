@@ -105,3 +105,9 @@ Common Tools
 - stat memory
 - stat streaming
 - Unreal Insights Memory profiler
+- 
+
+## Resources
+- Unreal Art Optimization : https://unrealartoptimization.github.io/book/process/measuring-performance/
+
+
