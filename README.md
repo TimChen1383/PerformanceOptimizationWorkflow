@@ -52,13 +52,13 @@ Common Profiling Tools
 
 
 ## ProfilingCPU
-Simple Profiling Tools
+***Simple Profiling Tools***
 - `stat game` : Gives feedback on how long the various Gameplay Ticks are taking
 - `stat physics` : Displays physics performance statistics
 - `stat anim` : Shows how long skinned meshes are taking to compute per tick
 - `stat navigation` : Shows performance and memory information for the navigation system
 
-Unreal Insights
+***Unreal Insights***
 - Filter CPU tracks only
 ![CPUTask](https://github.com/user-attachments/assets/b43a0fa3-311e-42e1-bcae-709ddde0949d)
 - Find the key funciton (or a set of functions) that cause performance issue. Search from high level to low level
@@ -73,7 +73,7 @@ Unreal Insights
 
 ## ProfilingGPU
 
-Simple Profiling Tools
+***Simple Profiling Tools***
 - `stat gpu` : Displays GPU statistics for the frame
 <img width="652" height="371" alt="GPU" src="https://github.com/user-attachments/assets/8d3bd6c1-a7ba-455a-9c97-0b64f342ed0c" />
 
@@ -87,7 +87,7 @@ Simple Profiling Tools
 - Windows PIX (WIP)
 - RenderDoc (WIP)
 
-Unreal Insights
+***Unreal Insights***
 - Filter GPU tracks only
 ![FilterGPU](https://github.com/user-attachments/assets/f7247730-4e64-4fa2-9d6c-f44b1bfe2a1d)
 - Find the key elements (or a set of elements) that cause performance issue
