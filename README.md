@@ -40,7 +40,7 @@ An efficient profiling workflow for Unreal Engine project.
 - Always tackling the biggest problem first, leading to maximum performance return for the time invested
 - Finding spikes in profiled result
 
-Common Profiling Tools
+***Common Profiling Tools***
 - `stat fps` : Show current fps
 - `stat unit` : Overall frame time as well as the game thread, rendering thread, and GPU times
 - `stat unitgraph` : See the graph with the stat unit data
