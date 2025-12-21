@@ -112,4 +112,5 @@ Common Tools
 # Resources
 - Unreal Art Optimization : https://unrealartoptimization.github.io/book/process/measuring-performance/
 - How to run Unreal Insight: https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-insights-in-unreal-engine
+- How to run memory insight: https://dev.epicgames.com/documentation/en-us/unreal-engine/memory-insights-in-unreal-engine
 
