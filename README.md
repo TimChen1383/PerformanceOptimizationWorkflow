@@ -102,10 +102,11 @@ An efficient profiling workflow for Unreal Engine project.
 
 
 ## ProfilingMemory
-Common Tools
-- memreport -full
-- stat memory
-- stat streaming
+***Simple Profiling Tools***
+- `stat memory` : Shows statistics on how much memory is being used by various subsystems in Unreal Engine
+![statMemory](https://github.com/user-attachments/assets/08b72467-bd27-44dd-be94-fca18236c62d)
+- `stat streaming` : Displays basic statistics on streaming assets, like how much memory streaming textures are using, or how many streaming textures there are in the scene
+![statStreaming](https://github.com/user-attachments/assets/2cbca731-d7a2-4aef-b419-8e46a68d80cb)
 
 ***Memory Insights***
 - Change the path inside "RunMemoryInsight.bat" file to match with your Unreal Engine location 
